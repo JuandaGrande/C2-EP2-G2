@@ -41,6 +41,7 @@ void Solution::printTriangulo() const {
 
 int main() {
     int n;
+    cout<<"Ingrese el número de filas para generar el triángulo de Pascal"<<endl;
     cin>>n;
     if(n>1 && n<30){
         Solution sol(n);
